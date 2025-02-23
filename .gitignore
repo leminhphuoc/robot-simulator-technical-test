@@ -1,0 +1,42 @@
+# Ignore build results
+bin/
+obj/
+
+# .NET Core dependencies
+*.nuget.dgspec.json
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.assets.json
+
+# VS Code settings
+.vscode/
+
+# Rider settings
+.idea/
+*.sln.iml
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider and Resharper
+.idea/
+*.DotSettings.user
+
+# Logs and debugging
+*.log
+*.tlog
+*.log*
+
+# Coverage and testing
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# NuGet packages
+packages/
+*.nupkg
